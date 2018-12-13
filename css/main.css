@@ -832,6 +832,8 @@ textarea {
         align-items: center; }
   .features-step {
     padding: 0 30px; }
+  .features-item img {
+    width: 100%; }
   .learn-step {
     width: 100%;
     box-sizing: border-box;

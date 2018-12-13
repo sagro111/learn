@@ -23,6 +23,12 @@
     padding: 0 $responsivePadding;
   }
 
+  .features-item {
+    img {
+      width: 100%;
+    }
+  }
+
   .learn-step {
     width: 100%;
     box-sizing: border-box;
