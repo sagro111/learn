@@ -1,0 +1,180 @@
+@media screen and (max-width: 767px) {
+
+  $responsivePadding:15px;
+
+  html {
+    font-size: 12px;
+  }
+
+  .decorate__girl {
+    left: 343px;
+  }
+
+  .container {
+    padding: 0 $responsivePadding;
+  }
+
+  .menu {
+    margin-left: 0;
+    justify-content: space-between;
+    &__list {
+      margin-right: 0;
+    }
+  }
+
+  .header-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &__heading {
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    &__text {
+      min-width: 288px;
+      max-width: 400px;
+
+    }
+  }
+
+  .our-games {
+    flex-direction: column;
+    height: auto;
+      .large-box {
+        width: 100%;
+        height: 35vw;
+        margin-bottom: 25px;
+      }
+      .smaller {
+        width: 100%;
+        &__box {
+          height: 35vw;
+          margin-bottom: 25px;
+        }
+      }
+
+  }
+
+  .skills {
+    .skill-box {
+      .graphic {
+        margin: 40px 0;
+        min-width: 288px;
+        &__img {
+          width: 100%;
+        }
+      }
+      &:last-child {
+        padding-left: $responsivePadding;
+        padding-right: $responsivePadding;
+      }
+    }
+  }
+
+  .learn-step {
+    padding: 0 $responsivePadding;
+
+  }
+
+  .main-heading {
+    font-weight: bold;
+  }
+
+  .request {
+    padding: 160px $responsivePadding;
+    &-box {
+      flex-direction: column;
+      min-width: 288px;
+      width: 100%;
+      .request-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    &-item {
+      min-width: 288px;
+      width: 100%;
+      padding: 30px;
+    }
+    &-info {
+      min-width: 200px;
+    }
+  }
+
+  .question-box {
+    padding: 0 $responsivePadding;
+  }
+
+  .features-step {
+    padding: 0 $responsivePadding;
+    justify-content: center;
+    .hidden-off {
+      display: none;
+    }
+    .hidden-on {
+      display: block;
+    }
+    .features-item {
+      width: 70%;
+      min-width: 288px;
+      img {
+        margin-bottom: 20px;
+      }
+      &_text-box {
+        display: flex;
+        align-items: center;
+        margin-bottom: 65px;
+      }
+    }
+  }
+
+  .other-plus {
+    padding: inherit $responsivePadding;
+  }
+
+  .plus {
+    flex-wrap: wrap;
+    justify-content: center;
+    &-item {
+      margin-bottom: 35px;
+      min-width:277px;
+      max-width: 426px;
+
+      &:nth-child(1) {
+        margin-right: 0;
+      }
+    }
+
+  }
+
+  .low-footer {
+    flex-direction: column-reverse;
+    .copyright {
+      flex-direction: column-reverse;
+      align-items: center;
+      .low-footer__text:first-child {
+        margin: 0;
+      }
+      .low-footer__text:last-child {
+        display: flex;
+      }
+    }
+    .other-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__text {
+      margin: 0 0 30px 0;
+      span {
+        display: block;
+        margin-left: 5px;
+      }
+    }
+
+  }
+
+
+}
