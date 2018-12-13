@@ -1,13 +1,8 @@
-var burgerButton = document.getElementsByClassName('burger-menu');
-var hiddenMenu = document.getElementsByClassName('hidden-box');
 
-burgerButton[0].onclick = function() {
-    hiddenMenu[0].classList.add("hidden-box_fix")
-}
+$('#burger-menu').click(function () {
+    $('#hidden-box').toggleClass('hidden-box_fix')
+})
 
-burgerButton[1].onclick = function() {
-    hiddenMenu[2].classList.remove("hidden-box_fix")
-}
 
 //Paralax effect in header
 
