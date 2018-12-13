@@ -411,7 +411,7 @@ textarea {
 .features-item {
   width: 47.034%; }
   .features-item img {
-    width: 100%; }
+    max-width: 470px; }
   .features-item_text-box {
     display: flex;
     flex-direction: column;
@@ -762,7 +762,8 @@ textarea {
   width: 32px;
   position: relative;
   z-index: 9;
-  top: -2px; }
+  top: -2px;
+  cursor: pointer; }
   .burger-menu__line {
     background: #DADADA;
     width: 25px;
@@ -799,7 +800,7 @@ textarea {
   display: none; }
 
 #burger-button:checked ~ .burger-menu {
-  top: 130px; }
+  top: 190px; }
 
 #burger-button:checked ~ .burger-menu .burger-menu__line_top {
   top: 7px;

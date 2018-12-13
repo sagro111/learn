@@ -491,7 +491,7 @@ textarea {
 .features-item {
   width: 47.034%;
   img {
-    width: 100%;
+   max-width: 470px; 
   }
   &_text-box {
     display: flex;
@@ -923,6 +923,7 @@ textarea {
   position: relative;
   z-index:9;
   top:-2px;
+  cursor: pointer;
   &__line {
     background: #DADADA;
     width: 25px;
@@ -971,7 +972,7 @@ textarea {
 }
 
 #burger-button:checked ~ .burger-menu {
-  top:130px;
+  top: 190px;
 }
 
 #burger-button:checked ~ .burger-menu .burger-menu__line_top {
