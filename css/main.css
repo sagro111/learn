@@ -974,8 +974,8 @@ textarea {
 
 @media screen and (max-width: 465px) {
   .main-header {
-    height: 140vh;
-    max-height: 140vh; }
+    height: 700px;
+    max-height: 700px; }
   .main-navigation {
     display: none; }
   .menu__link {
@@ -989,7 +989,7 @@ textarea {
     position: absolute; }
     .decorate__girl {
       left: 0;
-      bottom: 100px;
+      top: 250px;
       background-size: 70%;
       background-repeat: no-repeat; }
   .header-info {
