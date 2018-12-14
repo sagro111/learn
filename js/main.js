@@ -1,6 +1,6 @@
 
 $('#burger-menu').click(function () {
-    $('#hidden-box').animate({top:'-25px'})
+    $('#hidden-box').toggleClass('hidden-box_fix')
 })
 
 
